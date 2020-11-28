@@ -13,7 +13,7 @@ In root run `make` to build a Web Assembly (WASM) NPM package. WASM is being use
 
 ## Written Contents
 
-I haven't gone as far as actual writing anything for the "blog", but have enjoyed constructing it with Rust, WASM, NextJS, and React. Typescript was not utilized in-order to expedite solo-development for transpilation time and related cognitive overhead. Will I get around to actually creating content? Hopefully 😊! The website is meant to look like a plain HTML document as I actually quite like the simplistic aesthetic for this sort of site.
+I haven't gone as far as actual writing anything for the "blog", but have enjoyed constructing it with Rust, WASM, NextJS, and React. Typescript was not utilized in-order to expedite solo-development for transpilation time and related cognitive overhead. The output product is essentially a static site akin to what Hugo would offer. Will I get around to actually creating content? Hopefully 😊! The website is meant to look like a plain HTML document as I actually quite like the simplistic aesthetic for this sort of site.
 
 ![screenshot](.github/screenshot.png)
 
