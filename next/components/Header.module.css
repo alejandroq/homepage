@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hidden_link {
+    color: black;
+    text-decoration: none;
+}
+
+.left_item {
+    align-self: center;
+}
+
+.title {
+    flex: 'flex-grow';
+    align-self: center;
+    text-align: center;
+}
+
+.right_item {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.right_item_item {
+    align-self: center;
+    padding: 0.5rem;
+}
+
+.no_underline {
+    text-decoration: none;
+}
