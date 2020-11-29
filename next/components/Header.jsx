@@ -4,29 +4,36 @@ import { BackContext } from '../context/BackProvider';
 import { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faFile } from '@fortawesome/free-solid-svg-icons';
 
 const SocialIcons = () => {
     return (
         <div className={styles.right_item}>
-            <a className={styles.right_item_item} href={"https://github.com/alejandroq"}>
+            <a className={styles.right_item_item} href={"https://github.com/alejandroq"} target="_blank">
                 <FontAwesomeIcon
                     style={{ height: "2rem" }}
                     icon={faGithub}
                     fixedWidth
                 />
             </a>
-            <a className={styles.right_item_item} href={"https://www.linkedin.com/in/quesadaalejandro"}>
+            <a className={styles.right_item_item} href={"https://www.linkedin.com/in/quesadaalejandro"} target="_blank">
                 <FontAwesomeIcon
                     style={{ height: "2rem" }}
                     icon={faLinkedinIn}
                     fixedWidth
                 />
             </a>
-            <a className={styles.right_item_item} href={"https://twitter.com/redpause"}>
+            <a className={styles.right_item_item} href={"https://twitter.com/redpause"} target="_blank">
                 <FontAwesomeIcon
                     style={{ height: "2rem" }}
                     icon={faTwitter}
+                    fixedWidth
+                />
+            </a>
+            <a className={styles.right_item_item} href={"/resume.pdf"} target="_blank">
+                <FontAwesomeIcon
+                    style={{ height: "2rem" }}
+                    icon={faFile}
                     fixedWidth
                 />
             </a>

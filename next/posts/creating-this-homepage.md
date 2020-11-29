@@ -15,6 +15,6 @@ contents = '''
 
 [Git URL](https://github.com/alejandroq/homepage)
 
-![image](/about_me.jpeg =500px)
+![image](/about_me.jpeg =700px)
 
 '''
