@@ -12,4 +12,9 @@ contents = '''
 
 - NextJS
 - WASM with Rust
+
+[Git URL](https://github.com/alejandroq/homepage)
+
+![image](/about_me.jpeg =500px)
+
 '''
